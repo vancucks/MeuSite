@@ -1,0 +1,1644 @@
+@font-face {
+  font-family: 'Vinicius';
+  src:  url('fonts/Vinicius.eot?ivpmt2');
+  src:  url('fonts/Vinicius.eot?ivpmt2#iefix') format('embedded-opentype'),
+    url('fonts/Vinicius.ttf?ivpmt2') format('truetype'),
+    url('fonts/Vinicius.woff?ivpmt2') format('woff'),
+    url('fonts/Vinicius.svg?ivpmt2#Vinicius') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="vini-"], [class*=" vini-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Vinicius' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vini-heart1:before {
+  content: "\e900";
+}
+.vini-cloud1:before {
+  content: "\e901";
+}
+.vini-star:before {
+  content: "\e902";
+}
+.vini-tv1:before {
+  content: "\e903";
+}
+.vini-sound:before {
+  content: "\e904";
+}
+.vini-video:before {
+  content: "\e905";
+}
+.vini-trash:before {
+  content: "\e906";
+}
+.vini-user1:before {
+  content: "\e907";
+}
+.vini-key1:before {
+  content: "\e908";
+}
+.vini-search1:before {
+  content: "\e909";
+}
+.vini-settings:before {
+  content: "\e90a";
+}
+.vini-camera1:before {
+  content: "\e90b";
+}
+.vini-tag:before {
+  content: "\e90c";
+}
+.vini-lock1:before {
+  content: "\e90d";
+}
+.vini-bulb:before {
+  content: "\e90e";
+}
+.vini-pen1:before {
+  content: "\e90f";
+}
+.vini-diamond:before {
+  content: "\e910";
+}
+.vini-display1:before {
+  content: "\e911";
+}
+.vini-location1:before {
+  content: "\e912";
+}
+.vini-eye1:before {
+  content: "\e913";
+}
+.vini-bubble1:before {
+  content: "\e914";
+}
+.vini-stack1:before {
+  content: "\e915";
+}
+.vini-cup:before {
+  content: "\e916";
+}
+.vini-phone1:before {
+  content: "\e917";
+}
+.vini-news:before {
+  content: "\e918";
+}
+.vini-mail1:before {
+  content: "\e919";
+}
+.vini-like:before {
+  content: "\e91a";
+}
+.vini-photo:before {
+  content: "\e91b";
+}
+.vini-note:before {
+  content: "\e91c";
+}
+.vini-clock1:before {
+  content: "\e91d";
+}
+.vini-paperplane:before {
+  content: "\e91e";
+}
+.vini-params:before {
+  content: "\e91f";
+}
+.vini-banknote:before {
+  content: "\e920";
+}
+.vini-data:before {
+  content: "\e921";
+}
+.vini-music1:before {
+  content: "\e922";
+}
+.vini-megaphone:before {
+  content: "\e923";
+}
+.vini-study:before {
+  content: "\e924";
+}
+.vini-lab1:before {
+  content: "\e925";
+}
+.vini-food:before {
+  content: "\e926";
+}
+.vini-t-shirt:before {
+  content: "\e927";
+}
+.vini-fire1:before {
+  content: "\e928";
+}
+.vini-clip:before {
+  content: "\e929";
+}
+.vini-shop:before {
+  content: "\e92a";
+}
+.vini-calendar1:before {
+  content: "\e92b";
+}
+.vini-wallet:before {
+  content: "\e92c";
+}
+.vini-vynil:before {
+  content: "\e92d";
+}
+.vini-truck1:before {
+  content: "\e92e";
+}
+.vini-world:before {
+  content: "\e92f";
+}
+.vini-home:before {
+  content: "\e930";
+}
+.vini-home2:before {
+  content: "\e931";
+}
+.vini-home3:before {
+  content: "\e932";
+}
+.vini-office:before {
+  content: "\e933";
+}
+.vini-newspaper:before {
+  content: "\e934";
+}
+.vini-pencil:before {
+  content: "\e935";
+}
+.vini-pencil2:before {
+  content: "\e936";
+}
+.vini-quill:before {
+  content: "\e937";
+}
+.vini-pen:before {
+  content: "\e938";
+}
+.vini-blog:before {
+  content: "\e939";
+}
+.vini-eyedropper:before {
+  content: "\e93a";
+}
+.vini-droplet:before {
+  content: "\e93b";
+}
+.vini-paint-format:before {
+  content: "\e93c";
+}
+.vini-image:before {
+  content: "\e93d";
+}
+.vini-images:before {
+  content: "\e93e";
+}
+.vini-camera:before {
+  content: "\e93f";
+}
+.vini-headphones:before {
+  content: "\e940";
+}
+.vini-music:before {
+  content: "\e941";
+}
+.vini-play:before {
+  content: "\e942";
+}
+.vini-film:before {
+  content: "\e943";
+}
+.vini-video-camera:before {
+  content: "\e944";
+}
+.vini-dice:before {
+  content: "\e945";
+}
+.vini-pacman:before {
+  content: "\e946";
+}
+.vini-spades:before {
+  content: "\e947";
+}
+.vini-clubs:before {
+  content: "\e948";
+}
+.vini-diamonds:before {
+  content: "\e949";
+}
+.vini-bullhorn:before {
+  content: "\e94a";
+}
+.vini-connection:before {
+  content: "\e94b";
+}
+.vini-podcast:before {
+  content: "\e94c";
+}
+.vini-feed:before {
+  content: "\e94d";
+}
+.vini-mic:before {
+  content: "\e94e";
+}
+.vini-book:before {
+  content: "\e94f";
+}
+.vini-books:before {
+  content: "\e950";
+}
+.vini-library:before {
+  content: "\e951";
+}
+.vini-file-text:before {
+  content: "\e952";
+}
+.vini-profile:before {
+  content: "\e953";
+}
+.vini-file-empty:before {
+  content: "\e954";
+}
+.vini-files-empty:before {
+  content: "\e955";
+}
+.vini-file-text2:before {
+  content: "\e956";
+}
+.vini-file-picture:before {
+  content: "\e957";
+}
+.vini-file-music:before {
+  content: "\e958";
+}
+.vini-file-play:before {
+  content: "\e959";
+}
+.vini-file-video:before {
+  content: "\e95a";
+}
+.vini-file-zip:before {
+  content: "\e95b";
+}
+.vini-copy:before {
+  content: "\e95c";
+}
+.vini-paste:before {
+  content: "\e95d";
+}
+.vini-stack:before {
+  content: "\e95e";
+}
+.vini-folder:before {
+  content: "\e95f";
+}
+.vini-folder-open:before {
+  content: "\e960";
+}
+.vini-folder-plus:before {
+  content: "\e961";
+}
+.vini-folder-minus:before {
+  content: "\e962";
+}
+.vini-folder-download:before {
+  content: "\e963";
+}
+.vini-folder-upload:before {
+  content: "\e964";
+}
+.vini-price-tag:before {
+  content: "\e965";
+}
+.vini-price-tags:before {
+  content: "\e966";
+}
+.vini-barcode:before {
+  content: "\e967";
+}
+.vini-qrcode:before {
+  content: "\e968";
+}
+.vini-ticket:before {
+  content: "\e969";
+}
+.vini-cart:before {
+  content: "\e96a";
+}
+.vini-coin-dollar:before {
+  content: "\e96b";
+}
+.vini-coin-euro:before {
+  content: "\e96c";
+}
+.vini-coin-pound:before {
+  content: "\e96d";
+}
+.vini-coin-yen:before {
+  content: "\e96e";
+}
+.vini-credit-card:before {
+  content: "\e96f";
+}
+.vini-calculator:before {
+  content: "\e970";
+}
+.vini-lifebuoy:before {
+  content: "\e971";
+}
+.vini-phone:before {
+  content: "\e972";
+}
+.vini-phone-hang-up:before {
+  content: "\e973";
+}
+.vini-address-book:before {
+  content: "\e974";
+}
+.vini-envelop:before {
+  content: "\e975";
+}
+.vini-pushpin:before {
+  content: "\e976";
+}
+.vini-location:before {
+  content: "\e977";
+}
+.vini-location2:before {
+  content: "\e978";
+}
+.vini-compass:before {
+  content: "\e979";
+}
+.vini-compass2:before {
+  content: "\e97a";
+}
+.vini-map:before {
+  content: "\e97b";
+}
+.vini-map2:before {
+  content: "\e97c";
+}
+.vini-history:before {
+  content: "\e97d";
+}
+.vini-clock:before {
+  content: "\e97e";
+}
+.vini-clock2:before {
+  content: "\e97f";
+}
+.vini-alarm:before {
+  content: "\e980";
+}
+.vini-bell:before {
+  content: "\e981";
+}
+.vini-stopwatch:before {
+  content: "\e982";
+}
+.vini-calendar:before {
+  content: "\e983";
+}
+.vini-printer:before {
+  content: "\e984";
+}
+.vini-keyboard:before {
+  content: "\e985";
+}
+.vini-display:before {
+  content: "\e986";
+}
+.vini-laptop:before {
+  content: "\e987";
+}
+.vini-mobile:before {
+  content: "\e988";
+}
+.vini-mobile2:before {
+  content: "\e989";
+}
+.vini-tablet:before {
+  content: "\e98a";
+}
+.vini-tv:before {
+  content: "\e98b";
+}
+.vini-drawer:before {
+  content: "\e98c";
+}
+.vini-drawer2:before {
+  content: "\e98d";
+}
+.vini-box-add:before {
+  content: "\e98e";
+}
+.vini-box-remove:before {
+  content: "\e98f";
+}
+.vini-download:before {
+  content: "\e990";
+}
+.vini-upload:before {
+  content: "\e991";
+}
+.vini-floppy-disk:before {
+  content: "\e992";
+}
+.vini-drive:before {
+  content: "\e993";
+}
+.vini-database:before {
+  content: "\e994";
+}
+.vini-undo:before {
+  content: "\e995";
+}
+.vini-redo:before {
+  content: "\e996";
+}
+.vini-undo2:before {
+  content: "\e997";
+}
+.vini-redo2:before {
+  content: "\e998";
+}
+.vini-forward:before {
+  content: "\e999";
+}
+.vini-reply:before {
+  content: "\e99a";
+}
+.vini-bubble:before {
+  content: "\e99b";
+}
+.vini-bubbles:before {
+  content: "\e99c";
+}
+.vini-bubbles2:before {
+  content: "\e99d";
+}
+.vini-bubble2:before {
+  content: "\e99e";
+}
+.vini-bubbles3:before {
+  content: "\e99f";
+}
+.vini-bubbles4:before {
+  content: "\e9a0";
+}
+.vini-user:before {
+  content: "\e9a1";
+}
+.vini-users:before {
+  content: "\e9a2";
+}
+.vini-user-plus:before {
+  content: "\e9a3";
+}
+.vini-user-minus:before {
+  content: "\e9a4";
+}
+.vini-user-check:before {
+  content: "\e9a5";
+}
+.vini-user-tie:before {
+  content: "\e9a6";
+}
+.vini-quotes-left:before {
+  content: "\e9a7";
+}
+.vini-quotes-right:before {
+  content: "\e9a8";
+}
+.vini-hour-glass:before {
+  content: "\e9a9";
+}
+.vini-spinner:before {
+  content: "\e9aa";
+}
+.vini-spinner2:before {
+  content: "\e9ab";
+}
+.vini-spinner3:before {
+  content: "\e9ac";
+}
+.vini-spinner4:before {
+  content: "\e9ad";
+}
+.vini-spinner5:before {
+  content: "\e9ae";
+}
+.vini-spinner6:before {
+  content: "\e9af";
+}
+.vini-spinner7:before {
+  content: "\e9b0";
+}
+.vini-spinner8:before {
+  content: "\e9b1";
+}
+.vini-spinner9:before {
+  content: "\e9b2";
+}
+.vini-spinner10:before {
+  content: "\e9b3";
+}
+.vini-spinner11:before {
+  content: "\e9b4";
+}
+.vini-binoculars:before {
+  content: "\e9b5";
+}
+.vini-search:before {
+  content: "\e9b6";
+}
+.vini-zoom-in:before {
+  content: "\e9b7";
+}
+.vini-zoom-out:before {
+  content: "\e9b8";
+}
+.vini-enlarge:before {
+  content: "\e9b9";
+}
+.vini-shrink:before {
+  content: "\e9ba";
+}
+.vini-enlarge2:before {
+  content: "\e9bb";
+}
+.vini-shrink2:before {
+  content: "\e9bc";
+}
+.vini-key:before {
+  content: "\e9bd";
+}
+.vini-key2:before {
+  content: "\e9be";
+}
+.vini-lock:before {
+  content: "\e9bf";
+}
+.vini-unlocked:before {
+  content: "\e9c0";
+}
+.vini-wrench:before {
+  content: "\e9c1";
+}
+.vini-equalizer:before {
+  content: "\e9c2";
+}
+.vini-equalizer2:before {
+  content: "\e9c3";
+}
+.vini-cog:before {
+  content: "\e9c4";
+}
+.vini-cogs:before {
+  content: "\e9c5";
+}
+.vini-hammer:before {
+  content: "\e9c6";
+}
+.vini-magic-wand:before {
+  content: "\e9c7";
+}
+.vini-aid-kit:before {
+  content: "\e9c8";
+}
+.vini-bug:before {
+  content: "\e9c9";
+}
+.vini-pie-chart:before {
+  content: "\e9ca";
+}
+.vini-stats-dots:before {
+  content: "\e9cb";
+}
+.vini-stats-bars:before {
+  content: "\e9cc";
+}
+.vini-stats-bars2:before {
+  content: "\e9cd";
+}
+.vini-trophy:before {
+  content: "\e9ce";
+}
+.vini-gift:before {
+  content: "\e9cf";
+}
+.vini-glass:before {
+  content: "\e9d0";
+}
+.vini-glass2:before {
+  content: "\e9d1";
+}
+.vini-mug:before {
+  content: "\e9d2";
+}
+.vini-spoon-knife:before {
+  content: "\e9d3";
+}
+.vini-leaf:before {
+  content: "\e9d4";
+}
+.vini-rocket:before {
+  content: "\e9d5";
+}
+.vini-meter:before {
+  content: "\e9d6";
+}
+.vini-meter2:before {
+  content: "\e9d7";
+}
+.vini-hammer2:before {
+  content: "\e9d8";
+}
+.vini-fire:before {
+  content: "\e9d9";
+}
+.vini-lab:before {
+  content: "\e9da";
+}
+.vini-magnet:before {
+  content: "\e9db";
+}
+.vini-bin:before {
+  content: "\e9dc";
+}
+.vini-bin2:before {
+  content: "\e9dd";
+}
+.vini-briefcase:before {
+  content: "\e9de";
+}
+.vini-airplane:before {
+  content: "\e9df";
+}
+.vini-truck:before {
+  content: "\e9e0";
+}
+.vini-road:before {
+  content: "\e9e1";
+}
+.vini-accessibility:before {
+  content: "\e9e2";
+}
+.vini-target:before {
+  content: "\e9e3";
+}
+.vini-shield:before {
+  content: "\e9e4";
+}
+.vini-power:before {
+  content: "\e9e5";
+}
+.vini-switch:before {
+  content: "\e9e6";
+}
+.vini-power-cord:before {
+  content: "\e9e7";
+}
+.vini-clipboard:before {
+  content: "\e9e8";
+}
+.vini-list-numbered:before {
+  content: "\e9e9";
+}
+.vini-list:before {
+  content: "\e9ea";
+}
+.vini-list2:before {
+  content: "\e9eb";
+}
+.vini-tree:before {
+  content: "\e9ec";
+}
+.vini-menu:before {
+  content: "\e9ed";
+}
+.vini-menu2:before {
+  content: "\e9ee";
+}
+.vini-menu3:before {
+  content: "\e9ef";
+}
+.vini-menu4:before {
+  content: "\e9f0";
+}
+.vini-cloud:before {
+  content: "\e9f1";
+}
+.vini-cloud-download:before {
+  content: "\e9f2";
+}
+.vini-cloud-upload:before {
+  content: "\e9f3";
+}
+.vini-cloud-check:before {
+  content: "\e9f4";
+}
+.vini-download2:before {
+  content: "\e9f5";
+}
+.vini-upload2:before {
+  content: "\e9f6";
+}
+.vini-download3:before {
+  content: "\e9f7";
+}
+.vini-upload3:before {
+  content: "\e9f8";
+}
+.vini-sphere:before {
+  content: "\e9f9";
+}
+.vini-earth:before {
+  content: "\e9fa";
+}
+.vini-link:before {
+  content: "\e9fb";
+}
+.vini-flag:before {
+  content: "\e9fc";
+}
+.vini-attachment:before {
+  content: "\e9fd";
+}
+.vini-eye:before {
+  content: "\e9fe";
+}
+.vini-eye-plus:before {
+  content: "\e9ff";
+}
+.vini-eye-minus:before {
+  content: "\ea00";
+}
+.vini-eye-blocked:before {
+  content: "\ea01";
+}
+.vini-bookmark:before {
+  content: "\ea02";
+}
+.vini-bookmarks:before {
+  content: "\ea03";
+}
+.vini-sun:before {
+  content: "\ea04";
+}
+.vini-contrast:before {
+  content: "\ea05";
+}
+.vini-brightness-contrast:before {
+  content: "\ea06";
+}
+.vini-star-empty:before {
+  content: "\ea07";
+}
+.vini-star-half:before {
+  content: "\ea08";
+}
+.vini-star-full:before {
+  content: "\ea09";
+}
+.vini-heart:before {
+  content: "\ea0a";
+}
+.vini-heart-broken:before {
+  content: "\ea0b";
+}
+.vini-man:before {
+  content: "\ea0c";
+}
+.vini-woman:before {
+  content: "\ea0d";
+}
+.vini-man-woman:before {
+  content: "\ea0e";
+}
+.vini-happy:before {
+  content: "\ea0f";
+}
+.vini-happy2:before {
+  content: "\ea10";
+}
+.vini-smile:before {
+  content: "\ea11";
+}
+.vini-smile2:before {
+  content: "\ea12";
+}
+.vini-tongue:before {
+  content: "\ea13";
+}
+.vini-tongue2:before {
+  content: "\ea14";
+}
+.vini-sad:before {
+  content: "\ea15";
+}
+.vini-sad2:before {
+  content: "\ea16";
+}
+.vini-wink:before {
+  content: "\ea17";
+}
+.vini-wink2:before {
+  content: "\ea18";
+}
+.vini-grin:before {
+  content: "\ea19";
+}
+.vini-grin2:before {
+  content: "\ea1a";
+}
+.vini-cool:before {
+  content: "\ea1b";
+}
+.vini-cool2:before {
+  content: "\ea1c";
+}
+.vini-angry:before {
+  content: "\ea1d";
+}
+.vini-angry2:before {
+  content: "\ea1e";
+}
+.vini-evil:before {
+  content: "\ea1f";
+}
+.vini-evil2:before {
+  content: "\ea20";
+}
+.vini-shocked:before {
+  content: "\ea21";
+}
+.vini-shocked2:before {
+  content: "\ea22";
+}
+.vini-baffled:before {
+  content: "\ea23";
+}
+.vini-baffled2:before {
+  content: "\ea24";
+}
+.vini-confused:before {
+  content: "\ea25";
+}
+.vini-confused2:before {
+  content: "\ea26";
+}
+.vini-neutral:before {
+  content: "\ea27";
+}
+.vini-neutral2:before {
+  content: "\ea28";
+}
+.vini-hipster:before {
+  content: "\ea29";
+}
+.vini-hipster2:before {
+  content: "\ea2a";
+}
+.vini-wondering:before {
+  content: "\ea2b";
+}
+.vini-wondering2:before {
+  content: "\ea2c";
+}
+.vini-sleepy:before {
+  content: "\ea2d";
+}
+.vini-sleepy2:before {
+  content: "\ea2e";
+}
+.vini-frustrated:before {
+  content: "\ea2f";
+}
+.vini-frustrated2:before {
+  content: "\ea30";
+}
+.vini-crying:before {
+  content: "\ea31";
+}
+.vini-crying2:before {
+  content: "\ea32";
+}
+.vini-point-up:before {
+  content: "\ea33";
+}
+.vini-point-right:before {
+  content: "\ea34";
+}
+.vini-point-down:before {
+  content: "\ea35";
+}
+.vini-point-left:before {
+  content: "\ea36";
+}
+.vini-warning:before {
+  content: "\ea37";
+}
+.vini-notification:before {
+  content: "\ea38";
+}
+.vini-question:before {
+  content: "\ea39";
+}
+.vini-plus:before {
+  content: "\ea3a";
+}
+.vini-minus:before {
+  content: "\ea3b";
+}
+.vini-info:before {
+  content: "\ea3c";
+}
+.vini-cancel-circle:before {
+  content: "\ea3d";
+}
+.vini-blocked:before {
+  content: "\ea3e";
+}
+.vini-cross:before {
+  content: "\ea3f";
+}
+.vini-checkmark:before {
+  content: "\ea40";
+}
+.vini-checkmark2:before {
+  content: "\ea41";
+}
+.vini-spell-check:before {
+  content: "\ea42";
+}
+.vini-enter:before {
+  content: "\ea43";
+}
+.vini-exit:before {
+  content: "\ea44";
+}
+.vini-play2:before {
+  content: "\ea45";
+}
+.vini-pause:before {
+  content: "\ea46";
+}
+.vini-stop:before {
+  content: "\ea47";
+}
+.vini-previous:before {
+  content: "\ea48";
+}
+.vini-next:before {
+  content: "\ea49";
+}
+.vini-backward:before {
+  content: "\ea4a";
+}
+.vini-forward2:before {
+  content: "\ea4b";
+}
+.vini-play3:before {
+  content: "\ea4c";
+}
+.vini-pause2:before {
+  content: "\ea4d";
+}
+.vini-stop2:before {
+  content: "\ea4e";
+}
+.vini-backward2:before {
+  content: "\ea4f";
+}
+.vini-forward3:before {
+  content: "\ea50";
+}
+.vini-first:before {
+  content: "\ea51";
+}
+.vini-last:before {
+  content: "\ea52";
+}
+.vini-previous2:before {
+  content: "\ea53";
+}
+.vini-next2:before {
+  content: "\ea54";
+}
+.vini-eject:before {
+  content: "\ea55";
+}
+.vini-volume-high:before {
+  content: "\ea56";
+}
+.vini-volume-medium:before {
+  content: "\ea57";
+}
+.vini-volume-low:before {
+  content: "\ea58";
+}
+.vini-volume-mute:before {
+  content: "\ea59";
+}
+.vini-volume-mute2:before {
+  content: "\ea5a";
+}
+.vini-volume-increase:before {
+  content: "\ea5b";
+}
+.vini-volume-decrease:before {
+  content: "\ea5c";
+}
+.vini-loop:before {
+  content: "\ea5d";
+}
+.vini-loop2:before {
+  content: "\ea5e";
+}
+.vini-infinite:before {
+  content: "\ea5f";
+}
+.vini-shuffle:before {
+  content: "\ea60";
+}
+.vini-arrow-up-left:before {
+  content: "\ea61";
+}
+.vini-arrow-up:before {
+  content: "\ea62";
+}
+.vini-arrow-up-right:before {
+  content: "\ea63";
+}
+.vini-arrow-right:before {
+  content: "\ea64";
+}
+.vini-arrow-down-right:before {
+  content: "\ea65";
+}
+.vini-arrow-down:before {
+  content: "\ea66";
+}
+.vini-arrow-down-left:before {
+  content: "\ea67";
+}
+.vini-arrow-left:before {
+  content: "\ea68";
+}
+.vini-arrow-up-left2:before {
+  content: "\ea69";
+}
+.vini-arrow-up2:before {
+  content: "\ea6a";
+}
+.vini-arrow-up-right2:before {
+  content: "\ea6b";
+}
+.vini-arrow-right2:before {
+  content: "\ea6c";
+}
+.vini-arrow-down-right2:before {
+  content: "\ea6d";
+}
+.vini-arrow-down2:before {
+  content: "\ea6e";
+}
+.vini-arrow-down-left2:before {
+  content: "\ea6f";
+}
+.vini-arrow-left2:before {
+  content: "\ea70";
+}
+.vini-circle-up:before {
+  content: "\ea71";
+}
+.vini-circle-right:before {
+  content: "\ea72";
+}
+.vini-circle-down:before {
+  content: "\ea73";
+}
+.vini-circle-left:before {
+  content: "\ea74";
+}
+.vini-tab:before {
+  content: "\ea75";
+}
+.vini-move-up:before {
+  content: "\ea76";
+}
+.vini-move-down:before {
+  content: "\ea77";
+}
+.vini-sort-alpha-asc:before {
+  content: "\ea78";
+}
+.vini-sort-alpha-desc:before {
+  content: "\ea79";
+}
+.vini-sort-numeric-asc:before {
+  content: "\ea7a";
+}
+.vini-sort-numberic-desc:before {
+  content: "\ea7b";
+}
+.vini-sort-amount-asc:before {
+  content: "\ea7c";
+}
+.vini-sort-amount-desc:before {
+  content: "\ea7d";
+}
+.vini-command:before {
+  content: "\ea7e";
+}
+.vini-shift:before {
+  content: "\ea7f";
+}
+.vini-ctrl:before {
+  content: "\ea80";
+}
+.vini-opt:before {
+  content: "\ea81";
+}
+.vini-checkbox-checked:before {
+  content: "\ea82";
+}
+.vini-checkbox-unchecked:before {
+  content: "\ea83";
+}
+.vini-radio-checked:before {
+  content: "\ea84";
+}
+.vini-radio-checked2:before {
+  content: "\ea85";
+}
+.vini-radio-unchecked:before {
+  content: "\ea86";
+}
+.vini-crop:before {
+  content: "\ea87";
+}
+.vini-make-group:before {
+  content: "\ea88";
+}
+.vini-ungroup:before {
+  content: "\ea89";
+}
+.vini-scissors:before {
+  content: "\ea8a";
+}
+.vini-filter:before {
+  content: "\ea8b";
+}
+.vini-font:before {
+  content: "\ea8c";
+}
+.vini-ligature:before {
+  content: "\ea8d";
+}
+.vini-ligature2:before {
+  content: "\ea8e";
+}
+.vini-text-height:before {
+  content: "\ea8f";
+}
+.vini-text-width:before {
+  content: "\ea90";
+}
+.vini-font-size:before {
+  content: "\ea91";
+}
+.vini-bold:before {
+  content: "\ea92";
+}
+.vini-underline:before {
+  content: "\ea93";
+}
+.vini-italic:before {
+  content: "\ea94";
+}
+.vini-strikethrough:before {
+  content: "\ea95";
+}
+.vini-omega:before {
+  content: "\ea96";
+}
+.vini-sigma:before {
+  content: "\ea97";
+}
+.vini-page-break:before {
+  content: "\ea98";
+}
+.vini-superscript:before {
+  content: "\ea99";
+}
+.vini-subscript:before {
+  content: "\ea9a";
+}
+.vini-superscript2:before {
+  content: "\ea9b";
+}
+.vini-subscript2:before {
+  content: "\ea9c";
+}
+.vini-text-color:before {
+  content: "\ea9d";
+}
+.vini-pagebreak:before {
+  content: "\ea9e";
+}
+.vini-clear-formatting:before {
+  content: "\ea9f";
+}
+.vini-table:before {
+  content: "\eaa0";
+}
+.vini-table2:before {
+  content: "\eaa1";
+}
+.vini-insert-template:before {
+  content: "\eaa2";
+}
+.vini-pilcrow:before {
+  content: "\eaa3";
+}
+.vini-ltr:before {
+  content: "\eaa4";
+}
+.vini-rtl:before {
+  content: "\eaa5";
+}
+.vini-section:before {
+  content: "\eaa6";
+}
+.vini-paragraph-left:before {
+  content: "\eaa7";
+}
+.vini-paragraph-center:before {
+  content: "\eaa8";
+}
+.vini-paragraph-right:before {
+  content: "\eaa9";
+}
+.vini-paragraph-justify:before {
+  content: "\eaaa";
+}
+.vini-indent-increase:before {
+  content: "\eaab";
+}
+.vini-indent-decrease:before {
+  content: "\eaac";
+}
+.vini-share:before {
+  content: "\eaad";
+}
+.vini-new-tab:before {
+  content: "\eaae";
+}
+.vini-embed:before {
+  content: "\eaaf";
+}
+.vini-embed2:before {
+  content: "\eab0";
+}
+.vini-terminal:before {
+  content: "\eab1";
+}
+.vini-share2:before {
+  content: "\eab2";
+}
+.vini-mail:before {
+  content: "\eab3";
+}
+.vini-mail2:before {
+  content: "\eab4";
+}
+.vini-mail3:before {
+  content: "\eab5";
+}
+.vini-mail4:before {
+  content: "\eab6";
+}
+.vini-amazon:before {
+  content: "\eab7";
+}
+.vini-google:before {
+  content: "\eab8";
+}
+.vini-google2:before {
+  content: "\eab9";
+}
+.vini-google3:before {
+  content: "\eaba";
+}
+.vini-google-plus:before {
+  content: "\eabb";
+}
+.vini-google-plus2:before {
+  content: "\eabc";
+}
+.vini-google-plus3:before {
+  content: "\eabd";
+}
+.vini-hangouts:before {
+  content: "\eabe";
+}
+.vini-google-drive:before {
+  content: "\eabf";
+}
+.vini-facebook:before {
+  content: "\eac0";
+}
+.vini-facebook2:before {
+  content: "\eac1";
+}
+.vini-instagram:before {
+  content: "\eac2";
+}
+.vini-whatsapp:before {
+  content: "\eac3";
+}
+.vini-spotify:before {
+  content: "\eac4";
+}
+.vini-telegram:before {
+  content: "\eac5";
+}
+.vini-twitter:before {
+  content: "\eac6";
+}
+.vini-vine:before {
+  content: "\eac7";
+}
+.vini-vk:before {
+  content: "\eac8";
+}
+.vini-renren:before {
+  content: "\eac9";
+}
+.vini-sina-weibo:before {
+  content: "\eaca";
+}
+.vini-rss:before {
+  content: "\eacb";
+}
+.vini-rss2:before {
+  content: "\eacc";
+}
+.vini-youtube:before {
+  content: "\eacd";
+}
+.vini-youtube2:before {
+  content: "\eace";
+}
+.vini-twitch:before {
+  content: "\eacf";
+}
+.vini-vimeo:before {
+  content: "\ead0";
+}
+.vini-vimeo2:before {
+  content: "\ead1";
+}
+.vini-lanyrd:before {
+  content: "\ead2";
+}
+.vini-flickr:before {
+  content: "\ead3";
+}
+.vini-flickr2:before {
+  content: "\ead4";
+}
+.vini-flickr3:before {
+  content: "\ead5";
+}
+.vini-flickr4:before {
+  content: "\ead6";
+}
+.vini-dribbble:before {
+  content: "\ead7";
+}
+.vini-behance:before {
+  content: "\ead8";
+}
+.vini-behance2:before {
+  content: "\ead9";
+}
+.vini-deviantart:before {
+  content: "\eada";
+}
+.vini-500px:before {
+  content: "\eadb";
+}
+.vini-steam:before {
+  content: "\eadc";
+}
+.vini-steam2:before {
+  content: "\eadd";
+}
+.vini-dropbox:before {
+  content: "\eade";
+}
+.vini-onedrive:before {
+  content: "\eadf";
+}
+.vini-github:before {
+  content: "\eae0";
+}
+.vini-npm:before {
+  content: "\eae1";
+}
+.vini-basecamp:before {
+  content: "\eae2";
+}
+.vini-trello:before {
+  content: "\eae3";
+}
+.vini-wordpress:before {
+  content: "\eae4";
+}
+.vini-joomla:before {
+  content: "\eae5";
+}
+.vini-ello:before {
+  content: "\eae6";
+}
+.vini-blogger:before {
+  content: "\eae7";
+}
+.vini-blogger2:before {
+  content: "\eae8";
+}
+.vini-tumblr:before {
+  content: "\eae9";
+}
+.vini-tumblr2:before {
+  content: "\eaea";
+}
+.vini-yahoo:before {
+  content: "\eaeb";
+}
+.vini-yahoo2:before {
+  content: "\eaec";
+}
+.vini-tux:before {
+  content: "\eaed";
+}
+.vini-appleinc:before {
+  content: "\eaee";
+}
+.vini-finder:before {
+  content: "\eaef";
+}
+.vini-android:before {
+  content: "\eaf0";
+}
+.vini-windows:before {
+  content: "\eaf1";
+}
+.vini-windows8:before {
+  content: "\eaf2";
+}
+.vini-soundcloud:before {
+  content: "\eaf3";
+}
+.vini-soundcloud2:before {
+  content: "\eaf4";
+}
+.vini-skype:before {
+  content: "\eaf5";
+}
+.vini-reddit:before {
+  content: "\eaf6";
+}
+.vini-hackernews:before {
+  content: "\eaf7";
+}
+.vini-wikipedia:before {
+  content: "\eaf8";
+}
+.vini-linkedin:before {
+  content: "\eaf9";
+}
+.vini-linkedin2:before {
+  content: "\eafa";
+}
+.vini-lastfm:before {
+  content: "\eafb";
+}
+.vini-lastfm2:before {
+  content: "\eafc";
+}
+.vini-delicious:before {
+  content: "\eafd";
+}
+.vini-stumbleupon:before {
+  content: "\eafe";
+}
+.vini-stumbleupon2:before {
+  content: "\eaff";
+}
+.vini-stackoverflow:before {
+  content: "\eb00";
+}
+.vini-pinterest:before {
+  content: "\eb01";
+}
+.vini-pinterest2:before {
+  content: "\eb02";
+}
+.vini-xing:before {
+  content: "\eb03";
+}
+.vini-xing2:before {
+  content: "\eb04";
+}
+.vini-flattr:before {
+  content: "\eb05";
+}
+.vini-foursquare:before {
+  content: "\eb06";
+}
+.vini-yelp:before {
+  content: "\eb07";
+}
+.vini-paypal:before {
+  content: "\eb08";
+}
+.vini-chrome:before {
+  content: "\eb09";
+}
+.vini-firefox:before {
+  content: "\eb0a";
+}
+.vini-IE:before {
+  content: "\eb0b";
+}
+.vini-edge:before {
+  content: "\eb0c";
+}
+.vini-safari:before {
+  content: "\eb0d";
+}
+.vini-opera:before {
+  content: "\eb0e";
+}
+.vini-file-pdf:before {
+  content: "\eb0f";
+}
+.vini-file-openoffice:before {
+  content: "\eb10";
+}
+.vini-file-word:before {
+  content: "\eb11";
+}
+.vini-file-excel:before {
+  content: "\eb12";
+}
+.vini-libreoffice:before {
+  content: "\eb13";
+}
+.vini-html-five:before {
+  content: "\eb14";
+}
+.vini-html-five2:before {
+  content: "\eb15";
+}
+.vini-css3:before {
+  content: "\eb16";
+}
+.vini-git:before {
+  content: "\eb17";
+}
+.vini-codepen:before {
+  content: "\eb18";
+}
+.vini-svg:before {
+  content: "\eb19";
+}
+.vini-IcoMoon:before {
+  content: "\eb1a";
+}
