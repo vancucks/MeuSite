@@ -7,10 +7,10 @@
                     <div class="row mt-3">
 
                         <div class="col pl-0">
-                            <img class="img-fluid"src="assets/img/black-clover.png" alt="" />
+                            <img class="img-fluid"src="assets/img/blackclover08-600x450.jpg" alt="" />
                         </div>
                         <div class="col">
-                            <img class="img-fluid"src="assets/img/blackclover08-600x450.jpg" alt="" />
+                            <img class="img-fluid"src="assets/img/black-clover.png" alt="" />
                         </div>
                         <div class="col pr-0">
                             <img class="img-fluid"src="assets/img/df4c30d1196ab71cf0d805bc170c0d22.jpg" alt="" />
