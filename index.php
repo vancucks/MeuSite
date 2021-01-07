@@ -67,10 +67,10 @@ if ($pg) {
             include_once 'paginas/login3.php';
             break;
        
-        case 'login4':
+        case 'instagram':
 
             //Incluir a pagina Login4
-            include_once 'paginas/login4.php';
+            include_once 'paginas/instagram.php';
             break;
 
         default:
