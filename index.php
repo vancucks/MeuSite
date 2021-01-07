@@ -1,7 +1,5 @@
 <?php
 
-
-
 $pg = isset($_GET['pg']);
 
 if ($pg) {
@@ -38,7 +36,7 @@ if ($pg) {
             include_once 'paginas/includes/header.php';
             include_once 'paginas/servicos.php';
             include_once 'paginas/includes/fooder.php';
-            
+
             break;
 
         case 'produtos':
@@ -48,25 +46,33 @@ if ($pg) {
             include_once 'paginas/produtos.php';
             include_once 'paginas/includes/fooder.php';
             break;
-        
+
+        case 'produtos2':
+
+            //Incluir a pagina Produtos2
+            include_once 'paginas/includes/header.php';
+            include_once 'paginas/produtos2.php';
+            include_once 'paginas/includes/fooder.php';
+            break;
+
         case 'login':
 
             //Incluir a pagina Login
             include_once 'paginas/login.php';
             break;
-        
-        case 'login2':
+
+        case 'twitter':
 
             //Incluir a pagina Login2
-            include_once 'paginas/login2.php';
+            include_once 'paginas/twitter.php';
             break;
-       
+
         case 'facebook':
 
             //Incluir a pagina Login3
             include_once 'paginas/facebook.php';
             break;
-       
+
         case 'instagram':
 
             //Incluir a pagina Login4
