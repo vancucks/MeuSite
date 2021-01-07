@@ -78,7 +78,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="?pg=login"><span class="vini-user"></span> Login </a>
-                                    <a class="dropdown-item" href="?pg=twitter"><span class="vini-twitch"></span></a>
+                                    <a class="dropdown-item" href="?pg=twitter"><span class="vini-twitter"></span></a>
                                     <a class="dropdown-item" href="?pg=facebook"><span class="vini-facebook"></span></a>
                                     <a class="dropdown-item" href="?pg=instagram"><span class="vini-instagram"></span></a>                          
                                     <div class="dropdown-divider"></div>
