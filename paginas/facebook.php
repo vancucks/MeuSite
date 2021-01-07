@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>CodePen - Login Facebook</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="plugins/login.face/style.css" />
 
 </head>
 <body>
