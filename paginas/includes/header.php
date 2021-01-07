@@ -71,16 +71,16 @@
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-                        
+                        <ul class="navbar-nav mr-auto">    
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   Área administrativa
+                                    Área administrativa
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="?pg=login"><span class="vini-user"></span> Login </a>
-                                    <a class="dropdown-item" href="?pg=login2"><span class="vini-user"></span> Login 2 </a>
-                                    <a class="dropdown-item" href="?pg=login3"><span class="vini-user"></span> Login 3 </a>
-                                    <a class="dropdown-item" href="?pg=login4"><span class="vini-user"></span> Login 4 </a>                          
+                                    <a class="dropdown-item" href="?pg=twitter"><span class="vini-twitch"></span></a>
+                                    <a class="dropdown-item" href="?pg=facebook"><span class="vini-facebook"></span></a>
+                                    <a class="dropdown-item" href="?pg=instagram"><span class="vini-instagram"></span></a>                          
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item alert-danger" href="?pg=login4"><span class="vini-exit"></span> Sair </a>                          
                                 </div>
