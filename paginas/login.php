@@ -12,6 +12,7 @@
     </head>
     <body>
         <!-- partial:index.partial.html -->
+        Bora bugar o site? HAHAHAH!
         <div id="login-button">
             <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
             </img>
